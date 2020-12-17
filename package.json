@@ -1,0 +1,25 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "Devices",
+  "author": "wanclouds",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "start": "yarn watch"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@grafana/data": "next",
+    "@grafana/runtime": "next",
+    "@grafana/ui": "next",
+    "antd": "^4.9.3"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "next",
+    "eslint-plugin-react-hooks": "4.0.8"
+  }
+}
