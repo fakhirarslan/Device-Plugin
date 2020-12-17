@@ -1,0 +1,34 @@
+{
+  "type": "app",
+  "name": "Devices",
+  "id": "yourorg-simple-app",
+
+  "info": {
+    "author": {
+      "name": "fakhirarslan",
+      "url": "https://grafana.com"
+    },
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "includes": [
+    {
+      "type": "page",
+      "name": "Devices",
+      "path": "/a/yourorg-simple-app",
+      "role": "Viewer",
+      "addToNav": true,
+      "defaultNav": true
+    }
+  ],
+
+  "dependencies": {
+    "grafanaVersion": "7.3.5",
+    "plugins": []
+  }
+}
