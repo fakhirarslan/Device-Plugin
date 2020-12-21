@@ -28,11 +28,12 @@ export const Device: FC<DeviceProps> = (): ReactElement => {
 
   return (
     <>
-      <div>
+      <div style={{backgroundColor:'white'}}>
+        <h1>Devices</h1>
         <div className="create-button">
           <Tooltip title='Create'>
             <span>
-              <Button type="primary" onClick={toggleDrawer}>
+              <Button type="primary" onClick={toggleDrawer} className="listViewButton">
                 <PlusOutlined /><Typography.Text className='create-text'>Create</Typography.Text>
               </Button>
             </span>
